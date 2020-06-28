@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+}
+
+.container {
+	border: 6px solid black;
+	/* display from left to right and the border wrap around flex item ( no space left) */
+	/* display: inline-flex; */
+
+	display: flex;
+
+	/* display from top to bottom with the reversed item from 9 to 1 */
+	/* flex-direction: column-reverse; */
+	/* flex-direction: column;
+	height: 300px; */
+
+	/* wrap by the container and items are reversed */
+	/* flex-wrap: wrap; */
+
+	/* flex-flow: column-reverse wrap-reverse;
+    height: 400px; */
+
+	height: 800px;
+	/* align-items: baseline; */
+	/* flex-wrap: wrap;
+    align-content: flex-start; */
+	align-items: flex-start;
+}
+
+.flex-item {
+	color: white;
+	font-size: 1.5rem;
+	padding: 1rem;
+	text-align: center;
+
+	/* grow all the items evenly and take up all the space */
+	/* flex-grow: 1; */
+	/* flex-shrink: 1; */
+	width: 8rem;
+}
+
+.item-1 {
+	background-color: #b4bf35;
+	/* padding-bottom: 3rem; */
+	flex-shrink: 4;
+	align-self: center;
+}
+.item-2 {
+	background-color: #355abf;
+	/* padding-bottom: 5rem; */
+	/* order: 1; */
+}
+.item-3 {
+	background-color: #35bf40;
+	/* font-size: 6rem; */
+}
+.item-4 {
+	background-color: #bf358a;
+}
+.item-5 {
+	background-color: #26d3ca;
+	/* order: 2; */
+}
+.item-6 {
+	background-color: #d10d2e;
+}
+.item-7 {
+	background-color: #bf5135;
+}
+.item-8 {
+	background-color: #212406;
+}
+.item-9 {
+	background-color: #bf9a35;
+}
